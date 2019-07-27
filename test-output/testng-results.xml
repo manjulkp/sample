@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-27T11:22:29Z" name="Default suite" finished-at="2019-07-27T11:22:30Z" duration-ms="687">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:listener.TestRunner@484970b0]" name="scenario" class="listener.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-07-27T11:22:29Z" name="Default test" finished-at="2019-07-27T11:22:30Z" duration-ms="687">
+      <class name="listener.TestRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:25Z" name="setUp" finished-at="2019-07-27T11:22:29Z" duration-ms="4226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:29Z" name="setUpClass" finished-at="2019-07-27T11:22:29Z" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:29Z" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-27T11:22:30Z" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user flow of  onboarding screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:30Z" name="tearDownClass" finished-at="2019-07-27T11:22:30Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:30Z" name="generateReport" finished-at="2019-07-27T11:22:31Z" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:listener.TestRunner@484970b0]" started-at="2019-07-27T11:22:31Z" name="tearDown" finished-at="2019-07-27T11:22:32Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- listener.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

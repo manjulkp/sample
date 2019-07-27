@@ -1,0 +1,75 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-27T11:22:30.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 842246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepBase.before(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate user flow of  onboarding screen",
+        "description": "",
+        "id": "login-feature;validate-user-flow-of--onboarding-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 99808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepBase.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180677310,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in Welcome screen",
+            "match": {
+              "location": "Login_Step.i_am_in_Welcome_screen()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to verify login ",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
